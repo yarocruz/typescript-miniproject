@@ -1,5 +1,4 @@
-function display(message: string) {
-  console.log(message);
-}
-
-display("Hello World!");
+const button = document.querySelector(".btn");
+button?.addEventListener("click", () => {
+  console.log("Clicked!");
+})
