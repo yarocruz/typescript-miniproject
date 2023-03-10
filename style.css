@@ -1,0 +1,43 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+input#todo {
+    margin: 5px 0;
+    width: 300px;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    margin: 5px 0;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style-type: none;
+}
+
+ul li {
+    margin: 5px 0;
+    padding: 10px 10px;
+    background-color: #f6f7f7;
+}
+
+.main-container {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
